@@ -243,6 +243,32 @@
                 <div class="comments" id="comments">
                   
                   
+  <div id="vcomments"></div>
+  <script defer src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script defer src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+  <script type="text/javascript">
+    var notify = 'false' === 'true';
+    var verify = 'false' === 'true';
+    var oldLoad = window.onload;
+    window.onload = function () {
+      new Valine({
+        el: '#vcomments',
+        notify: notify,
+        verify: verify,
+        app_id: "EUhAJpqYXSi7WNt1rSRVLIQN-gzGzoHsz",
+        app_key: "6Xw69uuheaEoqTF87NpTrdBY",
+        placeholder: "等待接收你的电波哟٩(๑&gt;◡&lt;๑)۶～",
+        avatar: "/retro",
+        meta: ['nick', 'mail', 'link'],
+        pageSize: "10",
+      });
+      oldLoad && oldLoad();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
+
 
                 </div>
               
@@ -262,6 +288,7 @@
     
   </div>
 </div>
+
 
 <!-- Custom -->
 
