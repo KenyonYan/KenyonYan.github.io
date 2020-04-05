@@ -45,6 +45,14 @@
 
 
 <body>
+
+  <script type="text/javascript">
+      var OriginTitile=document.title,st;
+      document.addEventListener("visibilitychange",function(){
+          document.hidden?(document.title="(,,•́ . •̀,,)你不要离开我嘛",clearTimeout(st)):(document.title="(ˊ•͈ ꇴ •͈ˋ)你回来啦！",st=setTimeout(function(){document.title=OriginTitile},3e3))
+      })
+  </script>
+
   <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">

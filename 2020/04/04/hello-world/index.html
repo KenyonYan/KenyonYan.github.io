@@ -45,6 +45,14 @@
 
 
 <body>
+
+  <script type="text/javascript">
+      var OriginTitile=document.title,st;
+      document.addEventListener("visibilitychange",function(){
+          document.hidden?(document.title="(,,•́ . •̀,,)你不要离开我嘛",clearTimeout(st)):(document.title="(ˊ•͈ ꇴ •͈ˋ)你回来啦！",st=setTimeout(function(){document.title=OriginTitile},3e3))
+      })
+  </script>
+
   <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
@@ -259,7 +267,7 @@
         app_id: "EUhAJpqYXSi7WNt1rSRVLIQN-gzGzoHsz",
         app_key: "6Xw69uuheaEoqTF87NpTrdBY",
         placeholder: "等待接收你的电波哟٩(๑&gt;◡&lt;๑)۶～\n(支持MarkDown语法)",
-        avatar: "/retro",
+        avatar: "/monsterid",
         meta: ['nick', 'mail', 'link'],
         pageSize: "10",
       });
