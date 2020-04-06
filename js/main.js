@@ -1,1 +1,113 @@
-"use strict";function scrollToElement(o,t){var n=$(o).offset();$("body,html").animate({scrollTop:n.top+(t||0),easing:"swing"})}function scrollToBoard(){scrollToElement("#board",-$("#navbar").height())}function debounce(a,r,s){var l;return function(){var o=this,t=arguments,n=s&&!l;clearTimeout(l),l=setTimeout(function(){l=null,s||a.apply(o,t)},r),n&&a.apply(o,t)}}$(document).ready(function(){var o=$("#navbar");0<o.offset().top&&(o.addClass("navbar-custom"),o.removeClass("navbar-dark")),$(window).scroll(function(){0<o.offset().top?(o.addClass("navbar-custom"),o.removeClass("navbar-dark")):o.addClass("navbar-dark")}),$("#navbar-toggler-btn").on("click",function(){$(".animated-icon").toggleClass("open"),$("#navbar").toggleClass("navbar-col-show")});function t(){var o=$(window).scrollTop()/5,t=96+parseInt($("#board").css("margin-top"));t<o&&(o=t),n.css({transform:"translate3d(0,"+o+"px,0)","-webkit-transform":"translate3d(0,"+o+"px,0)","-ms-transform":"translate3d(0,"+o+"px,0)","-o-transform":"translate3d(0,"+o+"px,0)"}),$("#toc")&&$("#toc-ctn").css({"padding-top":o+"px"})}var n=$('#background[parallax="true"]');0<n.length&&(t(),$(window).scroll(t)),$(".scroll-down-bar").on("click",scrollToBoard);function a(){var o=document.getElementById("board").getClientRects()[0].right,t=document.body.offsetWidth-o;s=50<=t,r.css({bottom:s&&l?"20px":"-60px",right:t-64+"px"})}var r=$("#scroll-top-button"),s=!1,l=!1;a(),$(window).resize(a);var e=$("#board").offset().top;$(window).scroll(debounce(function(){var o=document.body.scrollTop+document.documentElement.scrollTop;l=e<=o,r.css({bottom:s&&l?"20px":"-60px"})},20)),r.on("click",function(){$("body,html").animate({scrollTop:0,easing:"swing"})})});
+function scrollToElement(target, offset) {
+  var scroll_offset = $(target).offset();
+  $('body,html').animate({
+    scrollTop: scroll_offset.top + (offset || 0),
+    easing: 'swing',
+  });
+}
+
+function scrollToBoard() {
+  scrollToElement('#board', -$('#navbar').height());
+}
+
+// 防抖动函数
+function debounce(func, wait, immediate) {
+  var timeout;
+  return function () {
+    var context = this, args = arguments;
+    var later = function () {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    var callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+}
+
+$(document).ready(function () {
+  // 顶部菜单的动效
+  var navbar = $('#navbar');
+  if (navbar.offset().top > 0) {
+    navbar.addClass('navbar-custom');
+    navbar.removeClass('navbar-dark');
+  }
+  $(window).scroll(function () {
+    if (navbar.offset().top > 0) {
+      navbar.addClass('navbar-custom');
+      navbar.removeClass('navbar-dark');
+    } else {
+      navbar.addClass('navbar-dark');
+    }
+  });
+  $('#navbar-toggler-btn').on('click', function () {
+    $('.animated-icon').toggleClass('open');
+    $('#navbar').toggleClass('navbar-col-show');
+  });
+
+  // 头图视差动画
+  var target = $('#background[parallax="true"]');
+  var parallax = function () {
+    var oVal = $(window).scrollTop() / 5;
+    var offset = parseInt($('#board').css('margin-top'));
+    var max = 96 + offset;
+    if (oVal > max) {
+      oVal = max;
+    }
+    target.css({
+      transform: 'translate3d(0,' + oVal + 'px,0)',
+      '-webkit-transform': 'translate3d(0,' + oVal + 'px,0)',
+      '-ms-transform': 'translate3d(0,' + oVal + 'px,0)',
+      '-o-transform': 'translate3d(0,' + oVal + 'px,0)',
+    });
+
+    var toc = $('#toc');
+    if (toc) {
+      $('#toc-ctn').css({
+        'padding-top': oVal + 'px',
+      });
+    }
+  };
+  if (target.length > 0) {
+    parallax();
+    $(window).scroll(parallax);
+  }
+
+  // 向下滚动箭头的点击
+  $('.scroll-down-bar').on('click', scrollToBoard);
+
+  // 向顶部滚动箭头
+  var topArrow = $('#scroll-top-button');
+  var posDisplay = false;
+  var scrollDisplay = false;
+  // 位置
+  var setTopArrowPos = function () {
+    var boardRight = document.getElementById('board').getClientRects()[0].right;
+    var bodyWidth = document.body.offsetWidth;
+    var right = bodyWidth - boardRight;
+    posDisplay = right >= 50;
+    topArrow.css({
+      'bottom': posDisplay && scrollDisplay ? '20px' : '-60px',
+      'right': right - 64 + 'px',
+    });
+  };
+  setTopArrowPos();
+  $(window).resize(setTopArrowPos);
+  // 显示
+  var headerHeight = $('#board').offset().top;
+  $(window).scroll(debounce(function () {
+    var scrollHeight = document.body.scrollTop + document.documentElement.scrollTop;
+    scrollDisplay = scrollHeight >= headerHeight;
+    topArrow.css({
+      'bottom': posDisplay && scrollDisplay ? '20px' : '-60px',
+    });
+  }, 20));
+  // 点击
+  topArrow.on('click', function () {
+    $('body,html').animate({
+      scrollTop: 0,
+      easing: 'swing',
+    });
+  });
+});
