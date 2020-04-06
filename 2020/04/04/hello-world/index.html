@@ -247,39 +247,6 @@
             </div>
 
               
-                <!-- Comments -->
-                <div class="comments" id="comments">
-                  
-                  
-  <div id="vcomments"></div>
-  <script defer src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script defer src="//unpkg.com/valine/dist/Valine.min.js"></script>
-
-  <script type="text/javascript">
-    var notify = 'false' === 'true';
-    var verify = 'false' === 'true';
-    var oldLoad = window.onload;
-    window.onload = function () {
-      new Valine({
-        el: '#vcomments',
-        notify: notify,
-        verify: verify,
-        app_id: "EUhAJpqYXSi7WNt1rSRVLIQN-gzGzoHsz",
-        app_key: "6Xw69uuheaEoqTF87NpTrdBY",
-        placeholder: "等待接收你的电波哟٩(๑&gt;◡&lt;๑)۶～\n(支持MarkDown语法)",
-        avatar: "/monsterid",
-        meta: ['nick', 'mail', 'link'],
-        pageSize: "10",
-      });
-      oldLoad && oldLoad();
-    };
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
-      powered by Valine.</a></noscript>
-
-
-                </div>
-              
           </div>
         </div>
       </div>
@@ -339,28 +306,6 @@
   </div>
 </div>
   
-
-  
-    <!-- APlayer 音乐播放器 -->
-    <div id="aplayer"></div>
-    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
-<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
-<script type="text/javascript">
-  var oldLoad = window.onload;
-  window.onload = function () {
-    new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      autoplay: 'false' === 'true',
-      loop: 'all',
-      order: 'random',
-      theme: '#b7daff',
-      preload: 'none',
-      audio: [{"name":"your love is a drug","artist":"Garoad","url":"/songs/your love is a drug.mp3","cover":"/img/music covers/your love is a drug.jpg"},{"name":"friendly conversation loop","artist":"Garoad","url":"/songs/friendly conversation loop.mp3","cover":"/img/music covers/friendly conversation loop.jpg"},{"name":"all systems go","artist":"Garoad","url":"/songs/all systems go.mp3","cover":"/img/music covers/all systems go.jpg"}]
-    });
-    oldLoad && oldLoad();
-  }
-</script>
 
   
 
