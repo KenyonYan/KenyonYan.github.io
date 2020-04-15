@@ -1,1 +1,26 @@
-"use strict";!function(){var n=window.onload;window.onload=function(){var t;t="",t+='<button class="copy-btn" data-clipboard-snippet="">',t+='<i class="far fa-copy"></i><span>Copy</span>',t+="</button>",$("pre.prettyprint").wrap($('<div class="code-block"></div>')),$(".code-block").prepend(t),new ClipboardJS(".copy-btn",{target:function(n){return n.nextElementSibling}}).on("success",function(n){n.trigger.innerHTML="Success",setTimeout(function(){n.trigger.outerHTML=t},2e3)}),n&&n()}}((window,document));
+!function (e, t, a) {
+  var initCopyCode = function () {
+    var copyHtml = '';
+    copyHtml += '<button class="copy-btn" data-clipboard-snippet="">';
+    copyHtml += '<i class="far fa-copy"></i><span>Copy</span>';
+    copyHtml += '</button>';
+    $('pre.prettyprint').wrap($('<div class="code-block"></div>'));
+    $('.code-block').prepend(copyHtml);
+    var clipboard = new ClipboardJS('.copy-btn', {
+      target: function (trigger) {
+        return trigger.nextElementSibling;
+      },
+    });
+    clipboard.on('success', function (e) {
+      e.trigger.innerHTML = 'Success';
+      setTimeout(function () {
+        e.trigger.outerHTML = copyHtml;
+      }, 2000);
+    });
+  };
+  var oldLoad = window.onload;
+  window.onload = function () {
+    initCopyCode();
+    oldLoad && oldLoad();
+  };
+}(window, document);
