@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>高数复习第一章第一节</title>
+    <link href="/undefined/1a4eabfb.html"/>
+    <url>/undefined/1a4eabfb.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="映射和函数"><a href="#映射和函数" class="headerlink" title="映射和函数"></a>映射和函数</h1><h2 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h2><blockquote><blockquote><p><em>对于两个非空子集A、B，存在 某种法则使得A与B之间对应相关，<strong>A-&gt;B</strong>，a为A中元素成为原像，b为B中元素成为像</em></p></blockquote></blockquote><h2 id="种类"><a href="#种类" class="headerlink" title="种类:"></a>种类:</h2><div class="table-container"><table><thead><tr><th style="text-align:center">分类</th><th style="text-align:center">描述</th></tr></thead><tbody><tr><td style="text-align:center"><strong>满射</strong></td><td style="text-align:center">集合B中的每一个元素在A中都有一个或一个以上的原像与之对应(<strong>一对一,多对一皆可</strong>)</td></tr><tr><td style="text-align:center"><strong>单射</strong></td><td style="text-align:center">对于不同的原像x1、x2其所对应的像y1、y2也不同(<strong>只能一对一，不能多对一</strong>)</td></tr><tr><td style="text-align:center"><strong>1-1映射</strong></td><td style="text-align:center">既是单射又是满射(<strong>一个对一个，每一个都不能漏掉</strong>)</td></tr><tr><td style="text-align:center"><strong>逆映射</strong></td><td style="text-align:center">设A-&gt;B是一个单射，如果B中的像在A中都有其相对应的原像，则这样的映射成为逆映射，记做<strong>f<sup>-1</sup>: B-&gt;A</strong></td></tr><tr><td style="text-align:center"><strong>复合映射</strong></td><td style="text-align:center">设f: X-&gt;Y1, g: Y2-&gt;Z, Y1⊆Y2, 则有g◦f : X-&gt;Z , <strong>(g◦f)(x) = g[f(x)], x∈X,</strong> <strong>注：g◦f与f◦g不一定相同，因其定义域不同</strong></td></tr></tbody></table></div><p><img src="https://kenyonyanblog.oss-cn-beijing.aliyuncs.com/PicBed/映射对比.png" srcset="/img/loading.gif" alt="映射对比"></p><h2 id="函数："><a href="#函数：" class="headerlink" title="函数："></a>函数：</h2><blockquote><blockquote><p><em>设数集<strong>D</strong>∈<strong>R</strong>，映射<strong>f: D-&gt;R</strong>，称<strong>f</strong>为定义在<strong>D</strong>上的函数，记做<strong>y=f(x), x</strong>∈<strong>D</strong></em></p></blockquote></blockquote><h3 id="初等函数"><a href="#初等函数" class="headerlink" title="初等函数"></a>初等函数</h3><div class="table-container"><table><thead><tr><th style="text-align:center">种类</th><th style="text-align:center">描述</th></tr></thead><tbody><tr><td style="text-align:center"><strong>常数函数</strong></td><td style="text-align:center">y=2</td></tr><tr><td style="text-align:center"><strong>绝对值函数</strong></td><td style="text-align:center">y=｜x｜</td></tr><tr><td style="text-align:center"><strong>符号函数</strong></td><td style="text-align:center"><script type="math/tex">y=sgnx \begin{cases} 1& \text{x>0}\\ 0& \text{x=0}\\ -1& \text{x<0} \end{cases}</script></td></tr><tr><td style="text-align:center"><strong>取整函数</strong></td><td style="text-align:center">y=[x]</td></tr><tr><td style="text-align:center"><strong>反函数</strong></td><td style="text-align:center">y=f(x)与x=f<sup>-1</sup>(y)图像一样，y=f(x)与y=f<sup>-1</sup>(x)图像关于y=x对称，单调函数具有反函数，反函数与直接函数单调性相同</td></tr></tbody></table></div><h3 id="函数的特性："><a href="#函数的特性：" class="headerlink" title="函数的特性："></a>函数的特性：</h3><h4 id="1-函数的有界性"><a href="#1-函数的有界性" class="headerlink" title="1. 函数的有界性"></a>1. 函数的有界性</h4><p>f: D-&gt;R, D⊆R, 若存在常数k1，使<strong>f(x) ≤ k1 ∀x∈D</strong>，则称k1为f(x)在D上的一个上界；同理<strong>f(x) ≥ k2 ∀x∈D</strong>，则称k2为f(x)在D上的一个<strong>下界</strong></p><p class="note note-danger">注：如果存在上界和下界，说明这个函数一定有界</p><p>对任一M&gt;0, 都存在x∈D使|f(x)|&gt;M，则f(x)在D上无界</p><h4 id="2-函数的单调性"><a href="#2-函数的单调性" class="headerlink" title="2. 函数的单调性"></a>2. 函数的单调性</h4><p>若x1, x2∈D, x1 &lt; x2⇒f(x1) &lt; f(x2), 则称f(x)在D上单调递增</p><h4 id="3-函数的奇偶性"><a href="#3-函数的奇偶性" class="headerlink" title="3. 函数的奇偶性"></a>3. 函数的奇偶性</h4><p>若x1, x2∈D, x1 &lt; x2 ⇒ f(x1) &lt; f(x2), 则称f(x)在D上单调递增</p><p>若f(-x)=f(x) ∀x∈D，称f(x)为偶函数 (关于y轴对称)<br>若f(-x)=-f(x) ∀x∈D，称f(x)为奇函数 (关于原点对称)<br></p><p class="note note-primary">特性：偶 * 偶 = 偶，奇 * 偶 = 奇，奇 * 奇 = 偶</p><p></p><h4 id="4-函数的周期性"><a href="#4-函数的周期性" class="headerlink" title="4. 函数的周期性"></a>4. 函数的周期性</h4><p>f(x+L) = f(x) L&gt;0常数，∀x∈D，L为周期</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>高数</tag>
+      
+      <tag>复习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/undefined/hexo-blog.html"/>
     <url>/undefined/hexo-blog.html</url>
