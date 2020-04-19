@@ -4,12 +4,180 @@
   
   
   <entry>
+    <title>高数复习第一章第七节</title>
+    <link href="/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%B8%83%E8%8A%82.html"/>
+    <url>/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%B8%83%E8%8A%82.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="无穷小的比较"><a href="#无穷小的比较" class="headerlink" title="无穷小的比较"></a>无穷小的比较</h1><h2 id="未定式"><a href="#未定式" class="headerlink" title="未定式"></a>未定式</h2><h3 id="1-如果-lim-frac-β-α-0，则称β是α的高阶无穷小"><a href="#1-如果-lim-frac-β-α-0，则称β是α的高阶无穷小" class="headerlink" title="(1)如果\lim_{}{\frac{β}{α}}=0，则称β是α的高阶无穷小"></a>(1)<script type="math/tex">如果\lim_{}{\frac{β}{α}}=0，则称β是α的高阶无穷小</script></h3><h3 id="2-如果-lim-frac-β-α-infty，则称β是α的低阶无穷小"><a href="#2-如果-lim-frac-β-α-infty，则称β是α的低阶无穷小" class="headerlink" title="(2)如果\lim_{}{\frac{β}{α}}=\infty，则称β是α的低阶无穷小"></a>(2)<script type="math/tex">如果\lim_{}{\frac{β}{α}}=\infty，则称β是α的低阶无穷小</script></h3><h3 id="3-如果-lim-frac-β-α-c-neq0，则称β是α的同阶无穷小"><a href="#3-如果-lim-frac-β-α-c-neq0，则称β是α的同阶无穷小" class="headerlink" title="(3)如果\lim_{}{\frac{β}{α}}=c\neq0，则称β是α的同阶无穷小"></a>(3)<script type="math/tex">如果\lim_{}{\frac{β}{α}}=c\neq0，则称β是α的同阶无穷小</script></h3><h3 id="4-如果-lim-frac-β-α-k-c-neq0，k-0，则称β是α的k阶无穷小"><a href="#4-如果-lim-frac-β-α-k-c-neq0，k-0，则称β是α的k阶无穷小" class="headerlink" title="(4)如果\lim_{}{\frac{β}{α^k}}=c\neq0，k>0，则称β是α的k阶无穷小"></a>(4)<script type="math/tex">如果\lim_{}{\frac{β}{α^k}}=c\neq0，k>0，则称β是α的k阶无穷小</script></h3><h3 id="5-如果-lim-frac-β-α-1，则称β是α的等价无穷小"><a href="#5-如果-lim-frac-β-α-1，则称β是α的等价无穷小" class="headerlink" title="(5)如果\lim_{}{\frac{β}{α}}=1，则称β是α的等价无穷小"></a>(5)<script type="math/tex">如果\lim_{}{\frac{β}{α}}=1，则称β是α的等价无穷小</script></h3><h2 id="常见等价无穷小"><a href="#常见等价无穷小" class="headerlink" title="常见等价无穷小"></a>常见等价无穷小</h2><script type="math/tex;mode=display">x->0时</script><script type="math/tex;mode=display">sinx~x</script><script type="math/tex;mode=display">1−cosx~\frac{1}{2}x^2</script><script type="math/tex;mode=display">tanx~x</script><script type="math/tex;mode=display">arcsinx~x</script><script type="math/tex;mode=display">arctanx~x</script><script type="math/tex;mode=display">(1+x)^{\frac{1}{n}}-1~\frac{1}{n}x</script>]]></content>
+    
+    
+    <categories>
+      
+      <category>高数</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>高数</tag>
+      
+      <tag>复习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>高数复习第一章第六节</title>
+    <link href="/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E5%85%AD%E8%8A%82.html"/>
+    <url>/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E5%85%AD%E8%8A%82.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="极限存在准则，两个重要极限"><a href="#极限存在准则，两个重要极限" class="headerlink" title="极限存在准则，两个重要极限"></a>极限存在准则，两个重要极限</h1><h2 id="准则一：-夹逼准则"><a href="#准则一：-夹逼准则" class="headerlink" title="准则一：(夹逼准则)"></a>准则一：(夹逼准则)</h2><p>如果数列{Xn},{Yn}满足∃<script type="math/tex">N_0</script>ϵN，当n&gt;N时有<script type="math/tex">y_n</script>≤<script type="math/tex">x_n</script>≤<script type="math/tex">g_n</script>，<script type="math/tex">\lim_{n\to\infty}y_n=a, \lim_{n\to\infty}g_n=a则\lim_{n\to\infty}x_n=a</script></p><h2 id="准则二：-单调有界数列必收敛"><a href="#准则二：-单调有界数列必收敛" class="headerlink" title="准则二：(单调有界数列必收敛)"></a>准则二：(单调有界数列必收敛)</h2><h2 id="重要极限一："><a href="#重要极限一：" class="headerlink" title="重要极限一："></a>重要极限一：</h2><script type="math/tex;mode=display">\lim_{x\to 0}{\frac{sinx}{x}}=1</script><h2 id="重要极限二："><a href="#重要极限二：" class="headerlink" title="重要极限二："></a>重要极限二：</h2><script type="math/tex;mode=display">\lim_{n\to\infty}{(1+\frac{1}{n})^n}=e</script>]]></content>
+    
+    
+    <categories>
+      
+      <category>高数</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>高数</tag>
+      
+      <tag>复习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>高数复习第一章第五节</title>
+    <link href="/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%BA%94%E8%8A%82.html"/>
+    <url>/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%BA%94%E8%8A%82.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="极限运算法则"><a href="#极限运算法则" class="headerlink" title="极限运算法则"></a>极限运算法则</h1><h2 id="Th1："><a href="#Th1：" class="headerlink" title="Th1："></a>Th1：</h2><p>有限个无穷小的和仍未无穷小</p><h2 id="Th2："><a href="#Th2：" class="headerlink" title="Th2："></a>Th2：</h2><p>有界函数与无穷小的乘积仍为无穷小</p><p>例：<script type="math/tex">\lim_{x\to\infty}{\frac{sinx}{x}}=0, \lim_{x\to\infty}{\frac{arctanx}{x}}=0</script></p><h3 id="推论一："><a href="#推论一：" class="headerlink" title="推论一："></a>推论一：</h3><p>常数与无穷小的乘积为无穷小</p><h3 id="推论二："><a href="#推论二：" class="headerlink" title="推论二："></a>推论二：</h3><p>有限个无穷小的乘积为无穷小(把一个当成无穷小，其余当成有界)</p><h2 id="Th3"><a href="#Th3" class="headerlink" title="Th3:"></a>Th3:</h2><p>如果<script type="math/tex">\lim_{}f(x)=A, \lim_{}g(x)=B</script>，且为同一极限过程则：</p><p>1)<script type="math/tex">\lim_{}[f(x)±g(x)]=\lim_{}f(x)±\lim_{}g(x)</script></p><p class="note note-danger">注：要拆开时必须保证每一个极限都存在，即f(x)与g(x)的极限都存在</p><p>2)<script type="math/tex">\lim_{}[f(x)g(x)]=\lim_{}f(x) · \lim_{}g(x)</script></p><p>3)如果<script type="math/tex">\lim_{}{\frac{f(x)}{g(x)}}=\frac{\lim_{}f(x)}{\lim_{}g(x)}</script></p><h3 id="推论一：-lim-cf-x-c-lim-f-x-，c为常数"><a href="#推论一：-lim-cf-x-c-lim-f-x-，c为常数" class="headerlink" title="推论一：\lim_{}[cf(x)]=c\lim_{}f(x)，c为常数"></a>推论一：<script type="math/tex">\lim_{}[cf(x)]=c\lim_{}f(x)，c为常数</script></h3><h3 id="推论二：-lim-f-x-n-lim-f-x-n"><a href="#推论二：-lim-f-x-n-lim-f-x-n" class="headerlink" title="推论二：\lim_{}[f(x)]^n=[\lim_{}f(x)]^n"></a>推论二：<script type="math/tex">\lim_{}[f(x)]^n=[\lim_{}f(x)]^n</script></h3><h2 id="Th4：-极限的保序性"><a href="#Th4：-极限的保序性" class="headerlink" title="Th4：(极限的保序性)"></a>Th4：(极限的保序性)</h2><p>如果<script type="math/tex">\lim_{}f(x)=a, \lim_{}g(x)=b,则a≥b</script></p><p><img src="https://kenyonyanblog.oss-cn-beijing.aliyuncs.com/PicBed/极限的保序性.png" srcset="/img/loading.gif" alt="https://kenyonyanblog.oss-cn-beijing.aliyuncs.com/PicBed/极限的保序性.png"></p><h2 id="Th5：-复合函数的极限运算法则"><a href="#Th5：-复合函数的极限运算法则" class="headerlink" title="Th5：(复合函数的极限运算法则)"></a>Th5：(复合函数的极限运算法则)</h2><p>设y=f[g(x)]在点<script type="math/tex">x_0</script>的某去心领域内有定义，若<script type="math/tex">\lim_{x->x_0}g(x)=u_0, \lim_{u->u_0}f(x)=A, \lim_{x->x_0}f[g(x)]=\lim_{u->u_0}f(x)=A</script></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>高数</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>高数</tag>
+      
+      <tag>复习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>高数复习第一章第四节</title>
+    <link href="/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E5%9B%9B%E8%8A%82.html"/>
+    <url>/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E5%9B%9B%E8%8A%82.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="无穷大与无穷小"><a href="#无穷大与无穷小" class="headerlink" title="无穷大与无穷小"></a>无穷大与无穷小</h1><h2 id="无穷小定义："><a href="#无穷小定义：" class="headerlink" title="无穷小定义："></a>无穷小定义：</h2><p>∀ε&gt;0, ∃σ&gt;0, 当0&lt;|x−x0|&lt; σ时，|f(x)|&lt; ε成立，则称f(x)为x→x0时无穷小</p><script type="math/tex;mode=display">\lim_{x\to x0}f(x)=0</script><h2 id="无穷大定义："><a href="#无穷大定义：" class="headerlink" title="无穷大定义："></a>无穷大定义：</h2><p>设函数在X0的某去心邻域内有定义，如果对于任给的M&gt;0总存在σ&gt;0, 当0&lt;|x−x0|&lt; σ时，|f(x)|&gt;M，则称f(x)为当x→x0时的无穷大记做<script type="math/tex">\lim_{x\to x0}f(x)=∞</script></p><h2 id="定理："><a href="#定理：" class="headerlink" title="定理："></a>定理：</h2><h3 id="Th1：在自变量的同一变化过程中"><a href="#Th1：在自变量的同一变化过程中" class="headerlink" title="Th1：在自变量的同一变化过程中"></a>Th1：在自变量的同一变化过程中</h3><p><script type="math/tex">\lim_{}f(x)=A</script>&lt;=&gt; f(x)=A+ α， 其中α为无穷小</p><h3 id="Th2：在自变量的同一变化过程中，如果f-x-为无穷大，则-frac-1-f-x-为无穷小"><a href="#Th2：在自变量的同一变化过程中，如果f-x-为无穷大，则-frac-1-f-x-为无穷小" class="headerlink" title="Th2：在自变量的同一变化过程中，如果f(x)为无穷大，则\frac{1}{f(x)} 为无穷小"></a>Th2：在自变量的同一变化过程中，如果f(x)为无穷大，则<script type="math/tex">\frac{1}{f(x)}</script>为无穷小</h3>]]></content>
+    
+    
+    <categories>
+      
+      <category>高数</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>高数</tag>
+      
+      <tag>复习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>高数复习第一章第三节</title>
+    <link href="/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%B8%89%E8%8A%82.html"/>
+    <url>/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%B8%89%E8%8A%82.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="函数的极限"><a href="#函数的极限" class="headerlink" title="函数的极限"></a>函数的极限</h1><h2 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h2><p>任给的ε&gt;0，如果存在X&gt;0,当x&gt;X时，都有|f(x)−A|&lt;ε，则称A为f(x)当x→∞的极限</p><p><img src="https://kenyonyanblog.oss-cn-beijing.aliyuncs.com/PicBed/函数极限的4个条件.png" srcset="/img/loading.gif" alt="函数极限的4个条件"></p><p>y = A是函数f(x)的水平渐近线</p><h3 id="一般情况"><a href="#一般情况" class="headerlink" title="一般情况"></a>一般情况</h3><p><img src="https://kenyonyanblog.oss-cn-beijing.aliyuncs.com/PicBed/函数极限的4个条件.png" srcset="/img/loading.gif" alt="函数极限的4个条件"></p><p>注：<br>定义中0&lt;|x−x0|表示x≠x0, 讨论x→x0时，只考虑x≠x0,<script type="math/tex">\lim_{x\to x0}f(x)</script>是否存在与f(x0)是否有定义、取什么值无关</p><h3 id="左右极限："><a href="#左右极限：" class="headerlink" title="左右极限："></a>左右极限：</h3><p>x-&gt;x<sub>0</sub><sup>+</sup>时f(x)的极限为右极限，反之x-&gt;x<sub>0</sub><sup>-</sup>时f(x)的极限为左极限</p><p>对任给ε&gt;0，如果存在σ&gt;0，当x<sub>0</sub> &lt; x &lt; x<sub>0</sub>+σ时，则称A为f(x)当x→x<sub>0</sub>时右极限<br>记做<script type="math/tex">\lim_{x\to x0+}f(x)=A</script></p><h4 id="Th1：-左右极限相等才有极限"><a href="#Th1：-左右极限相等才有极限" class="headerlink" title="Th1：(左右极限相等才有极限)"></a>Th1：(左右极限相等才有极限)</h4><script type="math/tex;mode=display">\lim_{x\to x0}f(x)存在 <=> \lim_{x\to x0+}f(x)与存\lim_{x\to x0-}f(x)在且相等</script><script type="math/tex;mode=display">\lim_{x\to x0}f(x) = \lim_{x\to x0+}f(x) = \lim_{x\to x0-}f(x)</script><h4 id="Th2：-函数极限的唯一性"><a href="#Th2：-函数极限的唯一性" class="headerlink" title="Th2：(函数极限的唯一性)"></a>Th2：(函数极限的唯一性)</h4><p>如果<script type="math/tex">\lim_{x\to x0}f(x)</script>存在，则极限唯一</p><h4 id="Th3：-局部有界性"><a href="#Th3：-局部有界性" class="headerlink" title="Th3：(局部有界性)"></a>Th3：(局部有界性)</h4><script type="math/tex;mode=display">\lim_{x\to x0}f(x) ⇒ ∃M>0和σ>0使当0<|x−x0|<σ时|f(x)|≤M</script><p>在x的去心邻域U(x<sub>0</sub>，σ)内有界</p><h4 id="Th4：-保号性"><a href="#Th4：-保号性" class="headerlink" title="Th4：(保号性)"></a>Th4：(保号性)</h4><script type="math/tex;mode=display">\lim_{x\to x0}f(x)=A 且A>0 ⇒ 存在σ>0 当0<|x−x0|<σ时f(x)>0</script><h4 id="Th5：-函数极限与数列极限的关系"><a href="#Th5：-函数极限与数列极限的关系" class="headerlink" title="Th5：(函数极限与数列极限的关系)"></a>Th5：(函数极限与数列极限的关系)</h4><p>如果<script type="math/tex">\lim_{x\to x0}f(x)</script>存在{Xn}为f(x)定义域内任一收敛于X<sub>0</sub>的数列, 且满足Xn≠X<sub>0</sub>则<script type="math/tex">\lim_{x\to x0}f(x)</script>=<script type="math/tex">\lim_{n\to\infty}f(x)</script></p><p><strong>证明函数不收敛的另一种方法：找一个数列证明其和原函数极限不等</strong></p><h3 id="推论1：函数的保号性"><a href="#推论1：函数的保号性" class="headerlink" title="推论1：函数的保号性"></a>推论1：函数的保号性</h3><p>如果在x0的某去心领域内f(x)&gt;= 0(f(x)&lt;=0)且<script type="math/tex">\lim_{x\to x0}f(x)=A</script>则A≥0(A≤0)</p><h3 id="推论2：函数的保序性"><a href="#推论2：函数的保序性" class="headerlink" title="推论2：函数的保序性"></a>推论2：函数的保序性</h3><p><script type="math/tex">\lim_{x\to x0}f(x)=A</script>，<script type="math/tex">\lim_{x\to x0}g(x)=B</script>, 若A&gt;B,则存在常数σ&gt;0, 当0&lt;|x−x0|&lt;σ时，有f(x)&gt;g(x)</p><p><strong>证明:令H(x) = f(x) - g(x)………………</strong></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>高数</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>高数</tag>
+      
+      <tag>复习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>高数复习第一章第二节</title>
+    <link href="/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%BA%8C%E8%8A%82.html"/>
+    <url>/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%BA%8C%E8%8A%82.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="数列的极限"><a href="#数列的极限" class="headerlink" title="数列的极限"></a>数列的极限</h1><h2 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h2><blockquote><blockquote><p>设{Xn}是一个数列，如果存在一个常数a，使得对任给的ε&gt;0，存在一个N，当n&gt;N时不等式|Xn-a| &lt; ε都成立则a为数列{Xn}的极限, <strong>如果数列{Xn}极限存在，则数列{Xn}收敛，否则称其发散</strong></p></blockquote></blockquote><script type="math/tex;mode=display">\lim_{n\to+\infty}Xn=a <=>  ∀ε>0, ∃N>0, 当n>N时，|Xn−a|<ε</script><h3 id="几何意义："><a href="#几何意义：" class="headerlink" title="几何意义："></a>几何意义：</h3><p>|Xn-a| &lt; ε ⇒ −ε&lt;Xn−a&lt;ε ⇒ a−ε &lt; Xn &lt; a+ε ⇒ Xnϵ∪(a,ε)<br>即N项之后，每项都在领域U(a,ε)内，有限项在领域U(a,ε)外</p><p><strong>证明模板：对任意ε&gt;0, 存在N&gt;0, 使得n&gt;N时，|Xn−a|&lt; ε</strong></p><h2 id="收敛数列的性质："><a href="#收敛数列的性质：" class="headerlink" title="收敛数列的性质："></a>收敛数列的性质：</h2><h3 id="Th1：-唯一性"><a href="#Th1：-唯一性" class="headerlink" title="Th1：(唯一性)"></a>Th1：(唯一性)</h3><p>数列的极限如果存在必定唯一</p><h3 id="Th2：-有界性"><a href="#Th2：-有界性" class="headerlink" title="Th2：(有界性)"></a>Th2：(有界性)</h3><p><strong>收敛数列必定有界</strong><br>例：有界数列不一定收敛(-1)<sup>n+1</sup>有界但不收敛</p><h3 id="Th3：-保号性"><a href="#Th3：-保号性" class="headerlink" title="Th3：(保号性)"></a>Th3：(保号性)</h3><p>如果<script type="math/tex">\lim_{n\to+\infty}Xn=a</script>存在且a&gt;0，则存在正整数N&gt;0,当n&gt;N时，都有Xn&gt;0</p><h3 id="Th4：-与子数列的关系"><a href="#Th4：-与子数列的关系" class="headerlink" title="Th4：(与子数列的关系)"></a>Th4：(与子数列的关系)</h3><p>如果数列{Xn}收敛于a，则它的任一子数列均收敛于a<br>可用于证明数列的极限不存在，分别取得数列的两不相等子数列，观察其极限是否相等，如果不相等则原数列极限不存在</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>高数</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>高数</tag>
+      
+      <tag>复习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>高数复习第一章第一节</title>
-    <link href="/undefined/1a4eabfb.html"/>
-    <url>/undefined/1a4eabfb.html</url>
+    <link href="/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%B8%80%E8%8A%82.html"/>
+    <url>/post/%E9%AB%98%E6%95%B0%E5%A4%8D%E4%B9%A0%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%B8%80%E8%8A%82.html</url>
     
-    <content type="html"><![CDATA[<h1 id="映射和函数"><a href="#映射和函数" class="headerlink" title="映射和函数"></a>映射和函数</h1><h2 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h2><blockquote><blockquote><p><em>对于两个非空子集A、B，存在 某种法则使得A与B之间对应相关，<strong>A-&gt;B</strong>，a为A中元素成为原像，b为B中元素成为像</em></p></blockquote></blockquote><h2 id="种类"><a href="#种类" class="headerlink" title="种类:"></a>种类:</h2><div class="table-container"><table><thead><tr><th style="text-align:center">分类</th><th style="text-align:center">描述</th></tr></thead><tbody><tr><td style="text-align:center"><strong>满射</strong></td><td style="text-align:center">集合B中的每一个元素在A中都有一个或一个以上的原像与之对应(<strong>一对一,多对一皆可</strong>)</td></tr><tr><td style="text-align:center"><strong>单射</strong></td><td style="text-align:center">对于不同的原像x1、x2其所对应的像y1、y2也不同(<strong>只能一对一，不能多对一</strong>)</td></tr><tr><td style="text-align:center"><strong>1-1映射</strong></td><td style="text-align:center">既是单射又是满射(<strong>一个对一个，每一个都不能漏掉</strong>)</td></tr><tr><td style="text-align:center"><strong>逆映射</strong></td><td style="text-align:center">设A-&gt;B是一个单射，如果B中的像在A中都有其相对应的原像，则这样的映射成为逆映射，记做<strong>f<sup>-1</sup>: B-&gt;A</strong></td></tr><tr><td style="text-align:center"><strong>复合映射</strong></td><td style="text-align:center">设f: X-&gt;Y1, g: Y2-&gt;Z, Y1⊆Y2, 则有g◦f : X-&gt;Z , <strong>(g◦f)(x) = g[f(x)], x∈X,</strong> <strong>注：g◦f与f◦g不一定相同，因其定义域不同</strong></td></tr></tbody></table></div><p><img src="https://kenyonyanblog.oss-cn-beijing.aliyuncs.com/PicBed/映射对比.png" srcset="/img/loading.gif" alt="映射对比"></p><h2 id="函数："><a href="#函数：" class="headerlink" title="函数："></a>函数：</h2><blockquote><blockquote><p><em>设数集<strong>D</strong>∈<strong>R</strong>，映射<strong>f: D-&gt;R</strong>，称<strong>f</strong>为定义在<strong>D</strong>上的函数，记做<strong>y=f(x), x</strong>∈<strong>D</strong></em></p></blockquote></blockquote><h3 id="初等函数"><a href="#初等函数" class="headerlink" title="初等函数"></a>初等函数</h3><div class="table-container"><table><thead><tr><th style="text-align:center">种类</th><th style="text-align:center">描述</th></tr></thead><tbody><tr><td style="text-align:center"><strong>常数函数</strong></td><td style="text-align:center">y=2</td></tr><tr><td style="text-align:center"><strong>绝对值函数</strong></td><td style="text-align:center">y=｜x｜</td></tr><tr><td style="text-align:center"><strong>符号函数</strong></td><td style="text-align:center"><script type="math/tex">y=sgnx \begin{cases} 1& \text{x>0}\\ 0& \text{x=0}\\ -1& \text{x<0} \end{cases}</script></td></tr><tr><td style="text-align:center"><strong>取整函数</strong></td><td style="text-align:center">y=[x]</td></tr><tr><td style="text-align:center"><strong>反函数</strong></td><td style="text-align:center">y=f(x)与x=f<sup>-1</sup>(y)图像一样，y=f(x)与y=f<sup>-1</sup>(x)图像关于y=x对称，单调函数具有反函数，反函数与直接函数单调性相同</td></tr></tbody></table></div><h3 id="函数的特性："><a href="#函数的特性：" class="headerlink" title="函数的特性："></a>函数的特性：</h3><h4 id="1-函数的有界性"><a href="#1-函数的有界性" class="headerlink" title="1. 函数的有界性"></a>1. 函数的有界性</h4><p>f: D-&gt;R, D⊆R, 若存在常数k1，使<strong>f(x) ≤ k1 ∀x∈D</strong>，则称k1为f(x)在D上的一个上界；同理<strong>f(x) ≥ k2 ∀x∈D</strong>，则称k2为f(x)在D上的一个<strong>下界</strong></p><p class="note note-danger">注：如果存在上界和下界，说明这个函数一定有界</p><p>对任一M&gt;0, 都存在x∈D使|f(x)|&gt;M，则f(x)在D上无界</p><h4 id="2-函数的单调性"><a href="#2-函数的单调性" class="headerlink" title="2. 函数的单调性"></a>2. 函数的单调性</h4><p>若x1, x2∈D, x1 &lt; x2⇒f(x1) &lt; f(x2), 则称f(x)在D上单调递增</p><h4 id="3-函数的奇偶性"><a href="#3-函数的奇偶性" class="headerlink" title="3. 函数的奇偶性"></a>3. 函数的奇偶性</h4><p>若x1, x2∈D, x1 &lt; x2 ⇒ f(x1) &lt; f(x2), 则称f(x)在D上单调递增</p><p>若f(-x)=f(x) ∀x∈D，称f(x)为偶函数 (关于y轴对称)<br>若f(-x)=-f(x) ∀x∈D，称f(x)为奇函数 (关于原点对称)<br></p><p class="note note-primary">特性：偶 * 偶 = 偶，奇 * 偶 = 奇，奇 * 奇 = 偶</p><p></p><h4 id="4-函数的周期性"><a href="#4-函数的周期性" class="headerlink" title="4. 函数的周期性"></a>4. 函数的周期性</h4><p>f(x+L) = f(x) L&gt;0常数，∀x∈D，L为周期</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="映射和函数"><a href="#映射和函数" class="headerlink" title="映射和函数"></a>映射和函数</h1><h2 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h2><p><em>&gt; &gt; 对于两个非空子集A、B，存在 某种法则使得A与B之间对应相关，<strong>A-&gt;B</strong>，a为A中元素成为原像，b为B中元素成为像</em></p><h2 id="种类"><a href="#种类" class="headerlink" title="种类:"></a>种类:</h2><div class="table-container"><table><thead><tr><th style="text-align:center">分类</th><th style="text-align:center">描述</th></tr></thead><tbody><tr><td style="text-align:center"><strong>满射</strong></td><td style="text-align:center">集合B中的每一个元素在A中都有一个或一个以上的原像与之对应(<strong>一对一,多对一皆可</strong>)</td></tr><tr><td style="text-align:center"><strong>单射</strong></td><td style="text-align:center">对于不同的原像x1、x2其所对应的像y1、y2也不同(<strong>只能一对一，不能多对一</strong>)</td></tr><tr><td style="text-align:center"><strong>1-1映射</strong></td><td style="text-align:center">既是单射又是满射(<strong>一个对一个，每一个都不能漏掉</strong>)</td></tr><tr><td style="text-align:center"><strong>逆映射</strong></td><td style="text-align:center">设A-&gt;B是一个单射，如果B中的像在A中都有其相对应的原像，则这样的映射成为逆映射，记做<strong>f<sup>-1</sup>: B-&gt;A</strong></td></tr><tr><td style="text-align:center"><strong>复合映射</strong></td><td style="text-align:center">设f: X-&gt;Y1, g: Y2-&gt;Z, Y1⊆Y2, 则有g◦f : X-&gt;Z , <strong>(g◦f)(x) = g[f(x)], x∈X,</strong> <strong>注：g◦f与f◦g不一定相同，因其定义域不同</strong></td></tr></tbody></table></div><p><img src="https://kenyonyanblog.oss-cn-beijing.aliyuncs.com/PicBed/映射对比.png" srcset="/img/loading.gif" alt="映射对比"></p><h2 id="函数："><a href="#函数：" class="headerlink" title="函数："></a>函数：</h2><blockquote><blockquote><p><em>设数集<strong>D</strong>∈<strong>R</strong>，映射<strong>f: D-&gt;R</strong>，称<strong>f</strong>为定义在<strong>D</strong>上的函数，记做<strong>y=f(x), x</strong>∈<strong>D</strong></em></p></blockquote></blockquote><h3 id="初等函数"><a href="#初等函数" class="headerlink" title="初等函数"></a>初等函数</h3><div class="table-container"><table><thead><tr><th style="text-align:center">种类</th><th style="text-align:center">描述</th></tr></thead><tbody><tr><td style="text-align:center"><strong>常数函数</strong></td><td style="text-align:center">y=2</td></tr><tr><td style="text-align:center"><strong>绝对值函数</strong></td><td style="text-align:center">y=｜x｜</td></tr><tr><td style="text-align:center"><strong>符号函数</strong></td><td style="text-align:center"><script type="math/tex">y=sgnx \begin{cases} 1& \text{x>0}\\ 0& \text{x=0}\\ -1& \text{x<0} \end{cases}</script></td></tr><tr><td style="text-align:center"><strong>取整函数</strong></td><td style="text-align:center">y=[x]</td></tr><tr><td style="text-align:center"><strong>反函数</strong></td><td style="text-align:center">y=f(x)与x=f<sup>-1</sup>(y)图像一样，y=f(x)与y=f<sup>-1</sup>(x)图像关于y=x对称，单调函数具有反函数，反函数与直接函数单调性相同</td></tr></tbody></table></div><h3 id="函数的特性："><a href="#函数的特性：" class="headerlink" title="函数的特性："></a>函数的特性：</h3><h4 id="1-函数的有界性"><a href="#1-函数的有界性" class="headerlink" title="1. 函数的有界性"></a>1. 函数的有界性</h4><p>f: D-&gt;R, D⊆R, 若存在常数k1，使<strong>f(x) ≤ k1 ∀x∈D</strong>，则称k1为f(x)在D上的一个上界；同理<strong>f(x) ≥ k2 ∀x∈D</strong>，则称k2为f(x)在D上的一个<strong>下界</strong></p><p class="note note-danger">注：如果存在上界和下界，说明这个函数一定有界</p><p>对任一M&gt;0, 都存在x∈D使|f(x)|&gt;M，则f(x)在D上无界</p><h4 id="2-函数的单调性"><a href="#2-函数的单调性" class="headerlink" title="2. 函数的单调性"></a>2. 函数的单调性</h4><p>若x1, x2∈D, x1 &lt; x2⇒f(x1) &lt; f(x2), 则称f(x)在D上单调递增</p><h4 id="3-函数的奇偶性"><a href="#3-函数的奇偶性" class="headerlink" title="3. 函数的奇偶性"></a>3. 函数的奇偶性</h4><p>若x1, x2∈D, x1 &lt; x2 ⇒ f(x1) &lt; f(x2), 则称f(x)在D上单调递增</p><p>若f(-x)=f(x) ∀x∈D，称f(x)为偶函数 (关于y轴对称)<br>若f(-x)=-f(x) ∀x∈D，称f(x)为奇函数 (关于原点对称)<br></p><p class="note note-primary">特性：偶 * 偶 = 偶，奇 * 偶 = 奇，奇 * 奇 = 偶</p><p></p><h4 id="4-函数的周期性"><a href="#4-函数的周期性" class="headerlink" title="4. 函数的周期性"></a>4. 函数的周期性</h4><p>f(x+L) = f(x) L&gt;0常数，∀x∈D，L为周期</p>]]></content>
     
+    
+    <categories>
+      
+      <category>高数</category>
+      
+    </categories>
     
     
     <tags>
@@ -26,18 +194,22 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="/undefined/hexo-blog.html"/>
-    <url>/undefined/hexo-blog.html</url>
+    <link href="/post/hexo-blog.html"/>
+    <url>/post/hexo-blog.html</url>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Hello-这里是Kenyon的个人博客"><a href="#Hello-这里是Kenyon的个人博客" class="headerlink" title="Hello,这里是Kenyon的个人博客"></a>Hello,这里是Kenyon的个人博客</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><p class="note note-primary">测试标签1</p><p class="note note-secondary">测试标签2</p><p class="note note-danger">测试标签3</p><p class="note note-warning">测试标签4</p><p class="note note-info">测试标签5</p><p class="note note-light">测试标签6</p>]]></content>
     
     
+    <categories>
+      
+      <category>Markdown语法</category>
+      
+    </categories>
+    
     
     <tags>
       
-      <tag>Hello</tag>
-      
-      <tag>World</tag>
+      <tag>Hello World</tag>
       
     </tags>
     
